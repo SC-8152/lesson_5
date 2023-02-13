@@ -95,3 +95,50 @@ h2 {
   font-size: 0;
  
 }
+
+.block {
+background-color: rgb(163, 42, 42);
+
+  border-top: 5px solid rgb(80, 60, 60);
+	border-right: 7px dashed rgb(179, 255, 0);
+	border-bottom: 9px solid rgb(0, 0, 0);
+	border-left: 4px dashed rgb(0, 90, 128);
+
+  outline: 8px solid burlywood;
+
+  border-radius: 25%;
+  overflow: hidden;
+  box-shadow: 0px 0px 80px 0px  rgba(239, 7, 165, 0.801);
+  
+  box-shadow: inset 0px 0px 20px 0px rgb(194, 224, 221);
+  margin-bottom: 40px;
+}
+
+.button {
+	display: inline-block;
+	padding: 10px;
+	background-color: purple;
+	color: #fff;
+	border-radius: 15px;
+	border: 5px solid green;
+	box-shadow: 0 5px 0 0 #000;
+	margin-bottom: 20px;
+	position: relative;
+	top: 0;
+	transition: all 0.3s;
+}
+.button:hover {
+	top: 3px;
+	box-shadow: 0 2px 0 0 #000;
+}
+
+.inlein {
+  font-size: 12px;
+  border: 10 solid #fff;
+  outline: 15px solid rgba(0, 162, 255, 0.274);
+
+  background-color: aqua;
+  border-radius: 30px;
+  box-shadow: 0px 0px 30px 0px rgb(0, 0, 0);
+  opacity: 0.5;
+}
